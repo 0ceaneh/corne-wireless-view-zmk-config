@@ -28,7 +28,7 @@
 // | ESC  |  Q  |  W  |  E  |  R  |  T  |       |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // | TAB  |  A  |  S  |  D  |  F  |  G  |       |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |       |  N  |  M   |  ,  |  .  |  /  | GUI  |
-//                    | GUI | RSE | ENT |       | SPC | LWR  | GUI |
+//                    |CTRL | RSE | ENT |       | SPC | LWR  |LALT |
 // -----------------------------------------------------------------------------------------
   
 // Row 0
@@ -42,7 +42,7 @@
   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RGUI
 
 // Row 3
-                  &kp LGUI &mo 2 &kp RET &kp SPACE &mo 1 &kp RGUI
+                  &kp LCTRL &mo 2 &kp RET &kp SPACE &mo 1 &kp LALT
 
 // -----------------------------------------------------------------------------------------                   
       >;
